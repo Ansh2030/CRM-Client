@@ -6,6 +6,8 @@ import './App.css';
 import Login from "./Components/Login/Login";
 import Home from "./Components/Home/Home";
 import { useAuth } from "./Context/authContext";
+import Audience from "./Components/Audience/Audience";
+import Campaign from "./Components/Campaign/Campaign";
 
 
 function App() {
@@ -31,8 +33,9 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-    <Route exact path= "/" element={user?<Home/>:<Login/>} />
+    <Route exact path= "/" element={user?<Audience/>:<Login/>} />
     <Route exact path = "/login" element = {<Login/>}/>
+    <Route exact path = "/campaign" element  = {<Campaign/>}/>
    </Routes>
       </BrowserRouter>
    </>

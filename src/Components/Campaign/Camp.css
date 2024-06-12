@@ -1,0 +1,13 @@
+.campcont{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    min-height: 600px;
+    max-height: max-content;
+}
+.right{
+display: grid;
+grid-template-columns:auto auto auto auto;
+gap:30px;
+box-shadow: inset;
+}

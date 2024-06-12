@@ -15,6 +15,7 @@ function Home() {
       {
         logedin?
         <>
+        
          <button onClick={()=>{ doSignOut().then(()=>{ navigate('/login')})} }>Logout</button>
          <div> {user.email}</div>
         </>:<>
