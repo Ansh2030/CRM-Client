@@ -11,3 +11,6 @@ grid-template-columns:auto auto auto auto;
 gap:30px;
 box-shadow: inset;
 }
+.up{
+    width:250px;
+}

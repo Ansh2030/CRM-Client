@@ -11,7 +11,7 @@ function Head() {
     <div>
      
 <nav className=" d navbar navbar-light bg-light">
-  <a className="navbar-brand" href="#">Mini CRM</a>
+  <a className="navbar-brand" href="#">Mini-CRM</a>
   <button  type='button' class="btn btn-light" onClick={()=>{ doSignOut().then(()=>{ navigate('/login')})} }>Logout</button>
 </nav>
 
