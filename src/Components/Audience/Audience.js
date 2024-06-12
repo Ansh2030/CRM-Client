@@ -68,7 +68,7 @@ const Audience = () => {
                 <div className='secol'>
                 <h1>Create Audience</h1>
             <button type="button" onClick={addRule} className="btn btn-light">Add Rule</button>
-            <input type="text"  placeholder='operation' onChange={addOp}  value={op}/>
+            <input className='ops' type="text"  placeholder='operation' onChange={addOp}  value={op}/>
             <div className='form'>
             {rules.map((rule, index) => (
                 <div className='formfield' key={index}>
